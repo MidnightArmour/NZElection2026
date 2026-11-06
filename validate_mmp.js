@@ -1,0 +1,4 @@
+function allocate(v,e){const PKEY=['NAT','LAB','GRN','ACT','NZF','TPM','TOP'];let eligible=PKEY.filter(k=>v[k]>=5||(e[k]||0)>0),ent=Object.fromEntries(PKEY.map(k=>[k,0]));for(let i=0;i<120;i++){let best=eligible[0],q=-1;for(const k of eligible){let x=v[k]/(2*ent[k]+1);if(x>q){q=x;best=k}}ent[best]++}let out={},oh=0;for(const k of PKEY){let el=e[k]||0,t=Math.max(el,ent[k]),over=Math.max(0,el-ent[k]);out[k]={total:t,electorate:el,list:Math.max(0,t-el),overhang:over};oh+=over}return{out,oh,size:120+oh}}
+function ok(n,c){if(!c)throw Error(n);console.log('PASS',n)}
+let v={NAT:40,LAB:35,GRN:10,ACT:8,NZF:7,TPM:0,TOP:0},e={NAT:40,LAB:20,GRN:3,ACT:2,NZF:0,TPM:6,TOP:0};
+let a=allocate(v,e);ok('electorates retained',a.out.TPM.total>=6);ok('TOP below threshold',allocate({...v,TOP:4.9},e).out.TOP.total===0);ok('TOP over threshold',allocate({...v,TOP:5.1},e).out.TOP.total>0);ok('overhang enlarges House',a.size===120+a.oh);
