@@ -1,0 +1,603 @@
+{
+  "method": "additive log-score adjustments before normalisation",
+  "adjustments": {
+    "epsom": [
+      {
+        "party": "ACT",
+        "log_score_adjustment": 0.95,
+        "reason": "Returning ACT incumbent with an established personal-vote pattern; preserve the ACT electorate lead despite National party-vote strength.",
+        "source_class": "verified candidate continuity + historical result"
+      },
+      {
+        "party": "NAT",
+        "log_score_adjustment": -0.2,
+        "reason": "National party vote is not treated as National candidate support in Epsom.",
+        "source_class": "historical split-vote pattern"
+      }
+    ],
+    "tamaki": [
+      {
+        "party": "ACT",
+        "log_score_adjustment": -0.35,
+        "reason": "The 2023 ACT winner is not standing; remove much of the inherited personal-vote advantage.",
+        "source_class": "verified retirement"
+      },
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.22,
+        "reason": "National has a competitive replacement candidate and is treated as the principal beneficiary of the ACT incumbent retirement.",
+        "source_class": "current contest assumption"
+      },
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.1,
+        "reason": "Three-way contest adjustment.",
+        "source_class": "current contest assumption"
+      }
+    ],
+    "auckland-central": [
+      {
+        "party": "GRN",
+        "log_score_adjustment": 0.28,
+        "reason": "Returning Green incumbent and demonstrated candidate vote.",
+        "source_class": "verified candidate continuity"
+      }
+    ],
+    "christchurch-central": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": -0.2,
+        "reason": "The 2023 Labour incumbent is not standing.",
+        "source_class": "verified retirement"
+      }
+    ],
+    "maungakiekie": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.16,
+        "reason": "Current Labour candidate strength in a competitive seat.",
+        "source_class": "model assumption"
+      }
+    ],
+    "mt-roskill": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.18,
+        "reason": "Returning former Labour electorate MP challenging a narrow National baseline.",
+        "source_class": "model assumption"
+      }
+    ],
+    "northcote": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.15,
+        "reason": "Returning former Labour electorate MP challenging the National baseline.",
+        "source_class": "model assumption"
+      }
+    ],
+    "wairarapa": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.22,
+        "reason": "High-profile Labour candidate challenging the National baseline.",
+        "source_class": "model assumption"
+      }
+    ],
+    "te-tai-tokerau": [
+      {
+        "party": "GRN",
+        "log_score_adjustment": 0.3,
+        "reason": "Current Green candidate is treated as a major contender in a volatile Māori electorate.",
+        "source_class": "model assumption"
+      },
+      {
+        "party": "TPM",
+        "log_score_adjustment": -0.1,
+        "reason": "Candidate turnover penalty relative to the 2023 Te Pāti Māori winner.",
+        "source_class": "model assumption"
+      }
+    ],
+    "te-tai-tonga": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.22,
+        "reason": "Current Labour candidate adjustment in a volatile Māori electorate.",
+        "source_class": "model assumption"
+      },
+      {
+        "party": "TPM",
+        "log_score_adjustment": -0.12,
+        "reason": "Candidate turnover penalty relative to the 2023 Te Pāti Māori winner.",
+        "source_class": "model assumption"
+      }
+    ],
+    "banks-peninsula": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "botany": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "christchurch-east": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "coromandel": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "dunedin": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "east-cape": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "east-coast-bays": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "glendene": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "hamilton-east": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "hamilton-west": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "henderson": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "hutt-south": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "ilam": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "invercargill": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "kaikoura": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "kaipara-ki-mahurangi": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "kapiti": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "kenepuru": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "mangere": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "manurewa": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "mt-albert": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "mt-maunganui": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "napier": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "nelson": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "new-plymouth": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "north-shore": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "northland": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "otahuhu": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "pakuranga": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "palmerston-north": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "papakura": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "rangitata": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "rangitikei": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "remutaka": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "rotorua": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "selwyn": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "southland": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "taieri": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "takanini": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "taranaki-king-country": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "taupo": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "tauranga": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "tukituki": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "upper-harbour": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "waikato": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "waimakariri": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "waitakere": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "waitaki": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "wellington-bays": [
+      {
+        "party": "GRN",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "wellington-north": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "west-coast-tasman": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "whanganui": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "whangaparaoa": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "whangarei": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "wigram": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "hauraki-waikato": [
+      {
+        "party": "TPM",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "ikaroa-rawhiti": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "tamaki-makaurau": [
+      {
+        "party": "LAB",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "te-tai-hauauru": [
+      {
+        "party": "TPM",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "waiariki": [
+      {
+        "party": "TPM",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ],
+    "port-waikato": [
+      {
+        "party": "NAT",
+        "log_score_adjustment": 0.06,
+        "reason": "Small continuity prior for the transposed 2023 leading party; replace when candidate continuity is fully verified.",
+        "source_class": "generic continuity prior"
+      }
+    ]
+  }
+}

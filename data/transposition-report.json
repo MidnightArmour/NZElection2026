@@ -1,0 +1,12 @@
+{
+  "status": "complete approximate voting-place transposition",
+  "general_features": 64,
+  "maori_features": 7,
+  "candidate_mapped_party_share": 0.6344790855831866,
+  "candidate_local_rows_used": 33195,
+  "party_local_rows_used": 98549,
+  "candidate_electorates_output": 70,
+  "party_electorates_output": 71,
+  "method": "local-booth point-in-polygon; specials and out-of-electorate booths excluded",
+  "warning": "Approximation of voter residence. Use meshblock-level returns if made available; candidate votes reflect 2023 candidates and require 2026 candidate adjustments."
+}
