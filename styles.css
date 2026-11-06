@@ -3,3 +3,5 @@
 .lowercharts .chart{height:300px}.lowercharts .card{margin-bottom:16px}.map-error{padding:18px;color:#8a2c2c}
 
 .latestpolls{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}.pollcard{border:1px solid var(--line);border-radius:10px;padding:10px;background:#f8fafc}.pollcard b,.pollcard span{display:block}.pollcard span{color:var(--muted);font-size:12px}.lowercharts .chart{height:360px}@media(max-width:850px){.latestpolls{grid-template-columns:1fr}}
+.seat-shape{cursor:pointer}.seat-shape:hover{stroke:#111;stroke-width:2.5}.map-tooltip{position:fixed;z-index:9999;pointer-events:none;background:#14243a;color:#fff;padding:9px 11px;border-radius:8px;box-shadow:0 4px 18px #0004;display:none;min-width:150px}.map-tooltip b,.map-tooltip span,.map-tooltip small{display:block}.map-tooltip span{font-size:13px}.map-tooltip small{color:#cbd7e5}
+.poll-point{cursor:crosshair;transition:r .12s}.poll-point:hover{r:9px}
