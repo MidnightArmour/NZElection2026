@@ -19,3 +19,4 @@
 .electorates th:nth-child(n+5),.electorates td:nth-child(n+5){text-align:center}
 .electorates .dot{width:8px;height:8px;margin-right:4px}
 .electorates .flip-label{margin-left:4px;padding:1px 5px}
+.delta-up{color:#167348;font-weight:800}.delta-down{color:#b42318;font-weight:800}.delta-flat{color:#667387;font-weight:800}.bloc-seatline{float:right}.bloc-seatline small{color:#667387;margin-left:5px}.party-projection table{font-size:14px}
