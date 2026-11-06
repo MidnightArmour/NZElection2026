@@ -23,3 +23,11 @@
 - Te Tai Tonga also receives wider uncertainty because four candidates had material support.
 - Published undecided shares are not mechanically allocated. They widen the seat-level probability distribution instead.
 - Labour is not given a general Māori-seat withdrawal penalty. Poll-led Labour advantages in Ikaroa-Rāwhiti and Te Tai Tonga remain, while Te Pāti Māori retains a smaller one-way candidate-vote premium.
+
+## General-electorate evidence coverage
+
+- No complete, verified general-electorate polling series is bundled with the model. General seats therefore remain grounded in transposed 2023 candidate results, candidate adjustments and the simulated national result.
+- The absence of local polls is represented by an 8% increase in residual seat uncertainty. The model does not create local poll overrides from commentary or from a single unverified figure.
+- If a general-electorate poll is added later, it should be stored with poll count, fieldwork, sample, undecided share and post-fieldwork candidate changes. One poll must be blended with the historical baseline and cannot receive more than 65% weight without corroboration.
+- The 2026 strategic-voting profiles now represent only incremental behaviour above the substantial split voting already embedded in the 2023 candidate-vote baseline.
+- National party-vote losses to ACT and NZ First retain more National electorate support than losses across the bloc; Opportunity losses receive intermediate retention.
