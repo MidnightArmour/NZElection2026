@@ -16,9 +16,9 @@ window.ElectorateModel=(()=>{
  function electorateProbabilities(e,cfg=DEFAULTS,nationalShock={}){let s=baselineShares(e),scores={};for(const k of PARTIES){let p=Math.max(.002,s[k]||.002);scores[k]=Math.log(p)+((cfg.nationalCandidateSwing||{})[k]||0)+((nationalShock||{})[k]||0)+((e['2026'].candidateAdjustments||{})[k]||0)}
   let standing=e['2026'].incumbentStanding;if(standing===true)scores[e.baseline2023.winnerParty]+=cfg.incumbencyBonus;if(standing===false)scores[e.baseline2023.winnerParty]-=cfg.newCandidatePenalty;
   let right=cfg.strategicIntensity.right,left=cfg.strategicIntensity.left;
-  scores.NAT+=(s.ACT*(cfg.transfers.ACT.NAT||0)+s.NZF*(cfg.transfers.NZF.NAT||0))*right;
-  scores.LAB+=(s.GRN*(cfg.transfers.GRN.LAB||0)+s.TOP*(cfg.transfers.TOP.LAB||0))*left;
-  if(e.type==='Māori'){scores.TPM+=(s.LAB*(cfg.maoriTransfers.LAB.TPM||0)+s.GRN*(cfg.maoriTransfers.GRN.TPM||0))*left}
+  scores.NAT+=(s.ACT*(cfg.transfers.ACT.NAT||0)+s.NZF*(cfg.transfers.NZF.NAT||0))*right*4;
+  scores.LAB+=(s.GRN*(cfg.transfers.GRN.LAB||0)+s.TOP*(cfg.transfers.TOP.LAB||0))*left*4;
+  if(e.type==='Māori'){scores.TPM+=(s.LAB*(cfg.maoriTransfers.LAB.TPM||0)+s.GRN*(cfg.maoriTransfers.GRN.TPM||0))*left*4}
   return softmax(scores)
  }
  function simulateElection(electorates,cfg=DEFAULTS,blocSwing={right:0,left:0}){let wins=Object.fromEntries(PARTIES.map(k=>[k,0])),details=[];let common=randn()*cfg.correlation;let national={NAT:common*.025+blocSwing.right,LAB:-common*.02+blocSwing.left,GRN:-common*.006+blocSwing.left*.35,ACT:common*.006,NZF:common*.005,TPM:blocSwing.left*.2,TOP:0};for(const e of electorates){let probs=electorateProbabilities(e,cfg,national),scores={};for(const k of PARTIES)scores[k]=Math.log(Math.max(.0001,probs[k]))+randn()*e.model.localSigma;let winner=Object.entries(scores).sort((a,b)=>b[1]-a[1])[0][0];wins[winner]++;details.push({id:e.id,name:e.name,winner,probabilities:probs})}return {wins,details}}
