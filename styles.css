@@ -9,3 +9,13 @@
 .forecast-controls{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.forecast-controls label{font-weight:700;color:#37485d}.forecast-controls input[type=checkbox]{accent-color:#18538d}.electorates tr.projected-flip td{background:#fff4cf}.electorates tr.projected-flip td:first-child{box-shadow:inset 5px 0 #e58b20}.flip-label{display:inline-block;margin-left:7px;padding:2px 6px;border-radius:999px;background:#e58b20;color:#fff;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}@media(max-width:1050px){.insets{grid-template-columns:repeat(2,1fr)}}
 
 .govgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.rating-chip{display:inline-block;padding:4px 9px;border-radius:999px;font-size:12px;font-weight:800;color:#fff}.rating-left-safe{background:#8d1010}.rating-left-likely{background:#bd3434}.rating-left-lean{background:#df7474}.rating-left-toss-up{background:#f2b5b5;color:#5e1717}.rating-right-safe{background:#0b3f7d}.rating-right-likely{background:#2d65a3}.rating-right-lean{background:#729ac7}.rating-right-toss-up{background:#b9cee6;color:#153f70}.rating-centre-safe{background:#444b55}.rating-centre-likely{background:#68727f}.rating-centre-lean{background:#929ba6}.rating-centre-toss-up{background:#d8dde3;color:#303640}@media(max-width:1000px){.govgrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.govgrid{grid-template-columns:1fr}}
+
+/* Compact electorate table */
+.electorates{font-size:13px;table-layout:auto}
+.electorates th,.electorates td{padding:7px 6px}
+.electorates th:first-child,.electorates td:first-child{min-width:150px;white-space:normal}
+.electorates th:nth-child(2),.electorates td:nth-child(2){width:64px}
+.electorates th:nth-child(3),.electorates td:nth-child(3),.electorates th:nth-child(4),.electorates td:nth-child(4){min-width:105px}
+.electorates th:nth-child(n+5),.electorates td:nth-child(n+5){text-align:center}
+.electorates .dot{width:8px;height:8px;margin-right:4px}
+.electorates .flip-label{margin-left:4px;padding:1px 5px}
