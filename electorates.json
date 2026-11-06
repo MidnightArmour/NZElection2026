@@ -23,7 +23,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -46,7 +46,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -69,7 +69,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -92,7 +92,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -115,7 +115,7 @@
       },
       "model": {
         "competitiveness": "lean",
-        "localSigma": 0.055
+        "localSigma": 0.31
       }
     },
     {
@@ -138,7 +138,7 @@
       },
       "model": {
         "competitiveness": "lean",
-        "localSigma": 0.055
+        "localSigma": 0.31
       }
     },
     {
@@ -161,7 +161,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -184,7 +184,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -207,7 +207,7 @@
       },
       "model": {
         "competitiveness": "lean",
-        "localSigma": 0.055
+        "localSigma": 0.31
       }
     },
     {
@@ -230,7 +230,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -253,7 +253,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -276,7 +276,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -299,7 +299,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -322,7 +322,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -345,7 +345,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -368,7 +368,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -391,7 +391,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -414,7 +414,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -437,7 +437,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -460,7 +460,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -483,7 +483,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -506,7 +506,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -529,7 +529,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -552,7 +552,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -575,7 +575,7 @@
       },
       "model": {
         "competitiveness": "lean",
-        "localSigma": 0.055
+        "localSigma": 0.31
       }
     },
     {
@@ -598,7 +598,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -621,7 +621,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -644,7 +644,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -667,7 +667,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -690,7 +690,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -713,7 +713,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -736,7 +736,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -759,7 +759,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -782,7 +782,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -805,7 +805,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -828,7 +828,7 @@
       },
       "model": {
         "competitiveness": "lean",
-        "localSigma": 0.055
+        "localSigma": 0.31
       }
     },
     {
@@ -851,7 +851,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -874,7 +874,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -897,7 +897,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -920,7 +920,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -943,7 +943,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -966,7 +966,7 @@
       },
       "model": {
         "competitiveness": "lean",
-        "localSigma": 0.055
+        "localSigma": 0.31
       }
     },
     {
@@ -989,7 +989,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1012,7 +1012,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1035,7 +1035,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1058,7 +1058,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -1081,7 +1081,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1104,7 +1104,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -1127,7 +1127,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1150,7 +1150,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1173,7 +1173,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1196,7 +1196,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -1219,7 +1219,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1242,7 +1242,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1265,7 +1265,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1288,7 +1288,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1311,7 +1311,7 @@
       },
       "model": {
         "competitiveness": "lean",
-        "localSigma": 0.055
+        "localSigma": 0.31
       }
     },
     {
@@ -1334,7 +1334,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1357,7 +1357,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -1380,7 +1380,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -1403,7 +1403,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.055
+        "localSigma": 0.23
       }
     },
     {
@@ -1426,7 +1426,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1449,7 +1449,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.055
+        "localSigma": 0.16
       }
     },
     {
@@ -1472,7 +1472,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.055
+        "localSigma": 0.4
       }
     },
     {
@@ -1495,7 +1495,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.075
+        "localSigma": 0.23
       }
     },
     {
@@ -1518,7 +1518,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.075
+        "localSigma": 0.23
       }
     },
     {
@@ -1541,7 +1541,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.075
+        "localSigma": 0.4
       }
     },
     {
@@ -1564,7 +1564,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.075
+        "localSigma": 0.16
       }
     },
     {
@@ -1587,7 +1587,7 @@
       },
       "model": {
         "competitiveness": "toss-up",
-        "localSigma": 0.075
+        "localSigma": 0.4
       }
     },
     {
@@ -1610,7 +1610,7 @@
       },
       "model": {
         "competitiveness": "likely",
-        "localSigma": 0.075
+        "localSigma": 0.23
       }
     },
     {
@@ -1633,7 +1633,7 @@
       },
       "model": {
         "competitiveness": "safe",
-        "localSigma": 0.075
+        "localSigma": 0.16
       }
     }
   ]
