@@ -1,0 +1,1640 @@
+{
+  "schemaVersion": 1,
+  "electionDate": "2026-11-07",
+  "sourceNote": "2023 official winning-candidate data; 2026 candidate fields are editable and incomplete.",
+  "electorates": [
+    {
+      "id": "auckland-central",
+      "name": "Auckland Central",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "GRN",
+        "winnerCandidate": "SWARBRICK, Chloë Charlotte",
+        "winnerVotes": 16624,
+        "runnerUpVotes": 12728,
+        "majority": 3896,
+        "winnerPct": 48.26,
+        "validVotesApprox": 34447
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "banks-peninsula",
+      "name": "Banks Peninsula",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "WEENINK, Vanessa",
+        "winnerVotes": 17860,
+        "runnerUpVotes": 17464,
+        "majority": 396,
+        "winnerPct": 36.53,
+        "validVotesApprox": 48891
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "bay-of-plenty",
+      "name": "Bay of Plenty",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "RUTHERFORD, Tom",
+        "winnerVotes": 23303,
+        "runnerUpVotes": 7898,
+        "majority": 15405,
+        "winnerPct": 52.29,
+        "validVotesApprox": 44565
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "botany",
+      "name": "Botany",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "LUXON, Christopher",
+        "winnerVotes": 24769,
+        "runnerUpVotes": 8446,
+        "majority": 16323,
+        "winnerPct": 67.81,
+        "validVotesApprox": 36527
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "christchurch-central",
+      "name": "Christchurch Central",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "WEBB, Duncan",
+        "winnerVotes": 15553,
+        "runnerUpVotes": 13712,
+        "majority": 1841,
+        "winnerPct": 40.17,
+        "validVotesApprox": 38718
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "lean",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "christchurch-east",
+      "name": "Christchurch East",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "DAVIDSON, Reuben John",
+        "winnerVotes": 15163,
+        "runnerUpVotes": 12766,
+        "majority": 2397,
+        "winnerPct": 39.55,
+        "validVotesApprox": 38339
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "lean",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "coromandel",
+      "name": "Coromandel",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "SIMPSON, Scott",
+        "winnerVotes": 25082,
+        "runnerUpVotes": 7733,
+        "majority": 17349,
+        "winnerPct": 54.28,
+        "validVotesApprox": 46209
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "dunedin",
+      "name": "Dunedin",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "BROOKING, Rachel",
+        "winnerVotes": 17111,
+        "runnerUpVotes": 9131,
+        "majority": 7980,
+        "winnerPct": 40.97,
+        "validVotesApprox": 41765
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "east-coast",
+      "name": "East Coast",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "KIRKPATRICK, Dana Margot",
+        "winnerVotes": 17007,
+        "runnerUpVotes": 13808,
+        "majority": 3199,
+        "winnerPct": 43.12,
+        "validVotesApprox": 39441
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "lean",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "east-coast-bays",
+      "name": "East Coast Bays",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "STANFORD, Erica",
+        "winnerVotes": 27687,
+        "runnerUpVotes": 7334,
+        "majority": 20353,
+        "winnerPct": 72.47,
+        "validVotesApprox": 38205
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "epsom",
+      "name": "Epsom",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "ACT",
+        "winnerCandidate": "SEYMOUR, David Breen",
+        "winnerVotes": 17826,
+        "runnerUpVotes": 9684,
+        "majority": 8142,
+        "winnerPct": 44.82,
+        "validVotesApprox": 39772
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "hamilton-east",
+      "name": "Hamilton East",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "HAMILTON, Ryan Alexander",
+        "winnerVotes": 17950,
+        "runnerUpVotes": 12890,
+        "majority": 5060,
+        "winnerPct": 48.45,
+        "validVotesApprox": 37049
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "hamilton-west",
+      "name": "Hamilton West",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "POTAKA, Tama William",
+        "winnerVotes": 17595,
+        "runnerUpVotes": 11107,
+        "majority": 6488,
+        "winnerPct": 46.82,
+        "validVotesApprox": 37580
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "hutt-south",
+      "name": "Hutt South",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "BISHOP, Christopher",
+        "winnerVotes": 19144,
+        "runnerUpVotes": 17812,
+        "majority": 1332,
+        "winnerPct": 44.74,
+        "validVotesApprox": 42789
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "ilam",
+      "name": "Ilam",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "CAMPBELL, Hamish George",
+        "winnerVotes": 18693,
+        "runnerUpVotes": 10863,
+        "majority": 7830,
+        "winnerPct": 44.43,
+        "validVotesApprox": 42073
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "invercargill",
+      "name": "Invercargill",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "SIMMONDS, Penelope Elsie",
+        "winnerVotes": 20819,
+        "runnerUpVotes": 10945,
+        "majority": 9874,
+        "winnerPct": 56.43,
+        "validVotesApprox": 36893
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "kaikoura",
+      "name": "Kaikōura",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "SMITH, Stuart Tayler",
+        "winnerVotes": 20741,
+        "runnerUpVotes": 9329,
+        "majority": 11412,
+        "winnerPct": 49.97,
+        "validVotesApprox": 41507
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "kaipara-ki-mahurangi",
+      "name": "Kaipara ki Mahurangi",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "PENK, Christopher Aidan",
+        "winnerVotes": 28281,
+        "runnerUpVotes": 8822,
+        "majority": 19459,
+        "winnerPct": 58.15,
+        "validVotesApprox": 48635
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "kelston",
+      "name": "Kelston",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "SEPULONI, Carmel Jean",
+        "winnerVotes": 14413,
+        "runnerUpVotes": 10017,
+        "majority": 4396,
+        "winnerPct": 44.43,
+        "validVotesApprox": 32440
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "mana",
+      "name": "Mana",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "EDMONDS, Barbara Rachael Fati Palepa",
+        "winnerVotes": 20198,
+        "runnerUpVotes": 12874,
+        "majority": 7324,
+        "winnerPct": 49.09,
+        "validVotesApprox": 41145
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "mangere",
+      "name": "Māngere",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "SOSENE, Lemauga Lydia",
+        "winnerVotes": 17297,
+        "runnerUpVotes": 5585,
+        "majority": 11712,
+        "winnerPct": 61.29,
+        "validVotesApprox": 28222
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "manurewa",
+      "name": "Manurewa",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "WILLIAMS, Arena",
+        "winnerVotes": 16261,
+        "runnerUpVotes": 9148,
+        "majority": 7113,
+        "winnerPct": 58.07,
+        "validVotesApprox": 28002
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "maungakiekie",
+      "name": "Maungakiekie",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "FLEMING, Gregory Wray",
+        "winnerVotes": 16952,
+        "runnerUpVotes": 12335,
+        "majority": 4617,
+        "winnerPct": 48.41,
+        "validVotesApprox": 35018
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "mt-albert",
+      "name": "Mt Albert",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "WHITE, Helen",
+        "winnerVotes": 13238,
+        "runnerUpVotes": 13220,
+        "majority": 18,
+        "winnerPct": 34.1,
+        "validVotesApprox": 38821
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "mt-roskill",
+      "name": "Mt Roskill",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "CHEUNG, Chun Ho Carlos",
+        "winnerVotes": 15659,
+        "runnerUpVotes": 14095,
+        "majority": 1564,
+        "winnerPct": 44.34,
+        "validVotesApprox": 35316
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "lean",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "napier",
+      "name": "Napier",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "NIMON, Katrina Margaret",
+        "winnerVotes": 21383,
+        "runnerUpVotes": 12474,
+        "majority": 8909,
+        "winnerPct": 53.5,
+        "validVotesApprox": 39968
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "nelson",
+      "name": "Nelson",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "BOYACK-MAYER, Rachel Elizabeth",
+        "winnerVotes": 17541,
+        "runnerUpVotes": 17515,
+        "majority": 26,
+        "winnerPct": 41.74,
+        "validVotesApprox": 42024
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "new-lynn",
+      "name": "New Lynn",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "GARCIA, Paulo Reyes",
+        "winnerVotes": 15886,
+        "runnerUpVotes": 14873,
+        "majority": 1013,
+        "winnerPct": 39.91,
+        "validVotesApprox": 39805
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "new-plymouth",
+      "name": "New Plymouth",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "MacLEOD, David Nigel",
+        "winnerVotes": 22483,
+        "runnerUpVotes": 15492,
+        "majority": 6991,
+        "winnerPct": 52.92,
+        "validVotesApprox": 42485
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "north-shore",
+      "name": "North Shore",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "WATTS, Simon Glen",
+        "winnerVotes": 24892,
+        "runnerUpVotes": 8562,
+        "majority": 16330,
+        "winnerPct": 61.6,
+        "validVotesApprox": 40409
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "northcote",
+      "name": "Northcote",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "BIDOIS, Daniel Michael",
+        "winnerVotes": 20807,
+        "runnerUpVotes": 11537,
+        "majority": 9270,
+        "winnerPct": 54.93,
+        "validVotesApprox": 37879
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "northland",
+      "name": "Northland",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "McCALLUM, Grant Lewis",
+        "winnerVotes": 16272,
+        "runnerUpVotes": 10185,
+        "majority": 6087,
+        "winnerPct": 35.88,
+        "validVotesApprox": 45351
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "ohariu",
+      "name": "Ōhāriu",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "O'CONNOR, Gregory Eamon",
+        "winnerVotes": 17565,
+        "runnerUpVotes": 16305,
+        "majority": 1260,
+        "winnerPct": 41.47,
+        "validVotesApprox": 42356
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "otaki",
+      "name": "Ōtaki",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "COSTLEY, Timothy John",
+        "winnerVotes": 22145,
+        "runnerUpVotes": 15874,
+        "majority": 6271,
+        "winnerPct": 50.97,
+        "validVotesApprox": 43447
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "pakuranga",
+      "name": "Pakuranga",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "BROWN, Simeon Peter",
+        "winnerVotes": 26105,
+        "runnerUpVotes": 7395,
+        "majority": 18710,
+        "winnerPct": 72.47,
+        "validVotesApprox": 36022
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "palmerston-north",
+      "name": "Palmerston North",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "UTIKERE, Tangi William Edward",
+        "winnerVotes": 15339,
+        "runnerUpVotes": 12252,
+        "majority": 3087,
+        "winnerPct": 43.81,
+        "validVotesApprox": 35013
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "lean",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "panmure-otahuhu",
+      "name": "Panmure-Ōtāhuhu",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "SALESA, Jennifer",
+        "winnerVotes": 15358,
+        "runnerUpVotes": 7388,
+        "majority": 7970,
+        "winnerPct": 53.11,
+        "validVotesApprox": 28917
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "papakura",
+      "name": "Papakura",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "COLLINS, Judith Anne",
+        "winnerVotes": 24109,
+        "runnerUpVotes": 10590,
+        "majority": 13519,
+        "winnerPct": 58.72,
+        "validVotesApprox": 41058
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "rangitata",
+      "name": "Rangitata",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "MEAGER, James Rawiri",
+        "winnerVotes": 22792,
+        "runnerUpVotes": 11946,
+        "majority": 10846,
+        "winnerPct": 56.97,
+        "validVotesApprox": 40007
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "rangitikei",
+      "name": "Rangitīkei",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "REDMAYNE, Susan Emma Dossor",
+        "winnerVotes": 18945,
+        "runnerUpVotes": 9160,
+        "majority": 9785,
+        "winnerPct": 46.96,
+        "validVotesApprox": 40343
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "remutaka",
+      "name": "Remutaka",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "HIPKINS, Christopher John",
+        "winnerVotes": 22344,
+        "runnerUpVotes": 13485,
+        "majority": 8859,
+        "winnerPct": 54.24,
+        "validVotesApprox": 41195
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "rongotai",
+      "name": "Rongotai",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "GRN",
+        "winnerCandidate": "GENTER, Julie Anne",
+        "winnerVotes": 16586,
+        "runnerUpVotes": 13869,
+        "majority": 2717,
+        "winnerPct": 39.49,
+        "validVotesApprox": 42001
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "lean",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "rotorua",
+      "name": "Rotorua",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "McCLAY, Todd Michael",
+        "winnerVotes": 19339,
+        "runnerUpVotes": 10416,
+        "majority": 8923,
+        "winnerPct": 53.98,
+        "validVotesApprox": 35826
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "selwyn",
+      "name": "Selwyn",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "GRIGG, Nicola Anna",
+        "winnerVotes": 31504,
+        "runnerUpVotes": 11722,
+        "majority": 19782,
+        "winnerPct": 66.22,
+        "validVotesApprox": 47575
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "southland",
+      "name": "Southland",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "MOONEY, Joseph",
+        "winnerVotes": 23231,
+        "runnerUpVotes": 6020,
+        "majority": 17211,
+        "winnerPct": 59.56,
+        "validVotesApprox": 39004
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "taieri",
+      "name": "Taieri",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "LEARY, Ingrid",
+        "winnerVotes": 16579,
+        "runnerUpVotes": 15136,
+        "majority": 1443,
+        "winnerPct": 39.86,
+        "validVotesApprox": 41593
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "takanini",
+      "name": "Takanini",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "NAKHLE, Rima Jillian",
+        "winnerVotes": 21936,
+        "runnerUpVotes": 13161,
+        "majority": 8775,
+        "winnerPct": 57.92,
+        "validVotesApprox": 37873
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "tamaki",
+      "name": "Tāmaki",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "ACT",
+        "winnerCandidate": "VAN VELDEN, Brooke",
+        "winnerVotes": 17858,
+        "runnerUpVotes": 13700,
+        "majority": 4158,
+        "winnerPct": 43.65,
+        "validVotesApprox": 40912
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "taranaki-king-country",
+      "name": "Taranaki-King Country",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "KURIGER, Barbara Joan",
+        "winnerVotes": 24760,
+        "runnerUpVotes": 10405,
+        "majority": 14355,
+        "winnerPct": 62.68,
+        "validVotesApprox": 39502
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "taupo",
+      "name": "Taupō",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "UPSTON, Louise",
+        "winnerVotes": 24858,
+        "runnerUpVotes": 8353,
+        "majority": 16505,
+        "winnerPct": 57.83,
+        "validVotesApprox": 42985
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "tauranga",
+      "name": "Tauranga",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "UFFINDELL, Samuel Julian",
+        "winnerVotes": 18980,
+        "runnerUpVotes": 9610,
+        "majority": 9370,
+        "winnerPct": 46.36,
+        "validVotesApprox": 40940
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "te-atatu",
+      "name": "Te Atatū",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "TWYFORD, Philip Stoner",
+        "winnerVotes": 14202,
+        "runnerUpVotes": 14071,
+        "majority": 131,
+        "winnerPct": 39.41,
+        "validVotesApprox": 36037
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "tukituki",
+      "name": "Tukituki",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "WEDD, Catherine",
+        "winnerVotes": 21981,
+        "runnerUpVotes": 11863,
+        "majority": 10118,
+        "winnerPct": 54.17,
+        "validVotesApprox": 40578
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "upper-harbour",
+      "name": "Upper Harbour",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "BREWER, Cameron Eric",
+        "winnerVotes": 21498,
+        "runnerUpVotes": 10306,
+        "majority": 11192,
+        "winnerPct": 53.5,
+        "validVotesApprox": 40183
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "waikato",
+      "name": "Waikato",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "VAN DE MOLEN, Timothy John",
+        "winnerVotes": 27445,
+        "runnerUpVotes": 8897,
+        "majority": 18548,
+        "winnerPct": 65.51,
+        "validVotesApprox": 41894
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "waimakariri",
+      "name": "Waimakariri",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "DOOCEY, Matthew Maurice",
+        "winnerVotes": 26816,
+        "runnerUpVotes": 13806,
+        "majority": 13010,
+        "winnerPct": 58.25,
+        "validVotesApprox": 46036
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "wairarapa",
+      "name": "Wairarapa",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "BUTTERICK, Michael",
+        "winnerVotes": 20313,
+        "runnerUpVotes": 17497,
+        "majority": 2816,
+        "winnerPct": 46.11,
+        "validVotesApprox": 44053
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "lean",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "waitaki",
+      "name": "Waitaki",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "ANDERSON, Miles John",
+        "winnerVotes": 22675,
+        "runnerUpVotes": 10524,
+        "majority": 12151,
+        "winnerPct": 51.79,
+        "validVotesApprox": 43783
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "wellington-central",
+      "name": "Wellington Central",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "GRN",
+        "winnerCandidate": "PAUL, Tamatha-Kaye Erin",
+        "winnerVotes": 18439,
+        "runnerUpVotes": 12373,
+        "majority": 6066,
+        "winnerPct": 40.82,
+        "validVotesApprox": 45171
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "west-coast-tasman",
+      "name": "West Coast-Tasman",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "PUGH, Maureen Helena",
+        "winnerVotes": 13317,
+        "runnerUpVotes": 12300,
+        "majority": 1017,
+        "winnerPct": 32.02,
+        "validVotesApprox": 41590
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "whanganui",
+      "name": "Whanganui",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "BATES, Carl Michael",
+        "winnerVotes": 18484,
+        "runnerUpVotes": 12972,
+        "majority": 5512,
+        "winnerPct": 47.73,
+        "validVotesApprox": 38726
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "whangaparaoa",
+      "name": "Whangaparāoa",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "MITCHELL, Mark",
+        "winnerVotes": 30742,
+        "runnerUpVotes": 7366,
+        "majority": 23376,
+        "winnerPct": 66.46,
+        "validVotesApprox": 46256
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "whangarei",
+      "name": "Whangārei",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "NAT",
+        "winnerCandidate": "RETI, Shane Raymond",
+        "winnerVotes": 20843,
+        "runnerUpVotes": 9419,
+        "majority": 11424,
+        "winnerPct": 48.78,
+        "validVotesApprox": 42729
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "wigram",
+      "name": "Wigram",
+      "type": "General",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "WOODS, Megan Cherie",
+        "winnerVotes": 15590,
+        "runnerUpVotes": 14411,
+        "majority": 1179,
+        "winnerPct": 42.16,
+        "validVotesApprox": 36978
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.055
+      }
+    },
+    {
+      "id": "hauraki-waikato",
+      "name": "Hauraki-Waikato",
+      "type": "Māori",
+      "baseline2023": {
+        "winnerParty": "TPM",
+        "winnerCandidate": "MAIPI-CLARKE, Hana-Rawhiti",
+        "winnerVotes": 12939,
+        "runnerUpVotes": 10028,
+        "majority": 2911,
+        "winnerPct": 53.5,
+        "validVotesApprox": 24185
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.075
+      }
+    },
+    {
+      "id": "ikaroa-rawhiti",
+      "name": "Ikaroa-Rāwhiti",
+      "type": "Māori",
+      "baseline2023": {
+        "winnerParty": "LAB",
+        "winnerCandidate": "TANGAERE-MANUEL, Cushla",
+        "winnerVotes": 13747,
+        "runnerUpVotes": 10873,
+        "majority": 2874,
+        "winnerPct": 54.11,
+        "validVotesApprox": 25406
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.075
+      }
+    },
+    {
+      "id": "tamaki-makaurau",
+      "name": "Tāmaki Makaurau",
+      "type": "Māori",
+      "baseline2023": {
+        "winnerParty": "TPM",
+        "winnerCandidate": "KEMP, Takutai Tarsh",
+        "winnerVotes": 10068,
+        "runnerUpVotes": 10026,
+        "majority": 42,
+        "winnerPct": 40.07,
+        "validVotesApprox": 25126
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.075
+      }
+    },
+    {
+      "id": "te-tai-hauauru",
+      "name": "Te Tai Hauāuru",
+      "type": "Māori",
+      "baseline2023": {
+        "winnerParty": "TPM",
+        "winnerCandidate": "NGAREWA-PACKER, Debbie Anne",
+        "winnerVotes": 16288,
+        "runnerUpVotes": 7126,
+        "majority": 9162,
+        "winnerPct": 63.79,
+        "validVotesApprox": 25534
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.075
+      }
+    },
+    {
+      "id": "te-tai-tokerau",
+      "name": "Te Tai Tokerau",
+      "type": "Māori",
+      "baseline2023": {
+        "winnerParty": "TPM",
+        "winnerCandidate": "KAPA-KINGI, Mariameno",
+        "winnerVotes": 10428,
+        "runnerUpVotes": 9911,
+        "majority": 517,
+        "winnerPct": 38.78,
+        "validVotesApprox": 26890
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "toss-up",
+        "localSigma": 0.075
+      }
+    },
+    {
+      "id": "te-tai-tonga",
+      "name": "Te Tai Tonga",
+      "type": "Māori",
+      "baseline2023": {
+        "winnerParty": "TPM",
+        "winnerCandidate": "FERRIS, Tākuta",
+        "winnerVotes": 12828,
+        "runnerUpVotes": 10004,
+        "majority": 2824,
+        "winnerPct": 48.41,
+        "validVotesApprox": 26499
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "likely",
+        "localSigma": 0.075
+      }
+    },
+    {
+      "id": "waiariki",
+      "name": "Waiariki",
+      "type": "Māori",
+      "baseline2023": {
+        "winnerParty": "TPM",
+        "winnerCandidate": "WAITITI, Rawiri",
+        "winnerVotes": 21500,
+        "runnerUpVotes": 5609,
+        "majority": 15891,
+        "winnerPct": 76.31,
+        "validVotesApprox": 28175
+      },
+      "2026": {
+        "incumbentStanding": null,
+        "candidateAdjustments": {},
+        "localPolling": null
+      },
+      "model": {
+        "competitiveness": "safe",
+        "localSigma": 0.075
+      }
+    }
+  ]
+}
