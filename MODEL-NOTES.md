@@ -31,3 +31,10 @@
 - If a general-electorate poll is added later, it should be stored with poll count, fieldwork, sample, undecided share and post-fieldwork candidate changes. One poll must be blended with the historical baseline and cannot receive more than 65% weight without corroboration.
 - The 2026 strategic-voting profiles now represent only incremental behaviour above the substantial split voting already embedded in the 2023 candidate-vote baseline.
 - National party-vote losses to ACT and NZ First retain more National electorate support than losses across the bloc; Opportunity losses receive intermediate retention.
+
+## Shared representative central scenario
+
+- The dashboard selects one valid simulated election closest to the marginal medians for party seats, electorate seats, Parliament size, overhang and party vote, with a small preference for modal electorate winners.
+- Parliament size, majority threshold, party totals, electorate/list/overhang components, bloc totals, the chamber graphic, electorate winners and maps all use that same run.
+- Probability, frequency, range and median vote-share displays continue to use all simulations.
+- The representative run is selected, not synthetically assembled, so its party seats reconcile to its Parliament size and its electorate winners total 71.
