@@ -47,3 +47,11 @@
 - Glendene is marked as a new seat. A new seat is not described as a flip; if its central winner differs from the transposed baseline it is labelled “New seat · baseline difference”.
 - The change-only filter includes genuine flips and new seats.
 - Forecast calculations, representative central-scenario selection, polling inputs, seat allocation and data files are unchanged from v33.
+
+
+## v34.1 presentation refinements
+
+- The official 2025 boundary review identifies five reconfigured new general electorates for this comparison: Glendene, Henderson, Waitākere, Kenepuru and Kapiti.
+- New-seat rows now use stronger blue shading and a badge matching the size, weight, uppercase treatment and spacing of the Flip badge.
+- The Centre bloc inserts two invisible party-row spacers so its Total line aligns vertically with the Left and Right bloc totals.
+- These are presentation and classification changes only; simulation and allocation logic are unchanged.
