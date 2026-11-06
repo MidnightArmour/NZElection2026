@@ -15,3 +15,11 @@
 - Tāmaki Makaurau models Kerrin Leoni as a local independent/other candidate following withdrawal of Labour endorsement.
 - Te Tai Tokerau and Te Tai Tonga include local breakaway/independent support.
 - Local candidates can win a seat and are counted inside the base 120-seat Parliament; they do not receive party-list seats.
+
+## Māori electorate poll calibration
+
+- Te Tai Tokerau poll weight is reduced to 62% because the lead is narrow, 22% were undecided, and a Green Māori-electorate victory would be unprecedented. Green remains a plausible leader, but the model retains more historical baseline influence and wider uncertainty.
+- Tāmaki Makaurau poll weight is reduced to 64% and uncertainty is widened because the poll preceded withdrawal of Labour endorsement from Kerrin Leoni.
+- Te Tai Tonga also receives wider uncertainty because four candidates had material support.
+- Published undecided shares are not mechanically allocated. They widen the seat-level probability distribution instead.
+- Labour is not given a general Māori-seat withdrawal penalty. Poll-led Labour advantages in Ikaroa-Rāwhiti and Te Tai Tonga remain, while Te Pāti Māori retains a smaller one-way candidate-vote premium.
