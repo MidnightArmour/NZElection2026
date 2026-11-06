@@ -55,3 +55,11 @@
 - New-seat rows now use stronger blue shading and a badge matching the size, weight, uppercase treatment and spacing of the Flip badge.
 - The Centre bloc inserts two invisible party-row spacers so its Total line aligns vertically with the Left and Right bloc totals.
 - These are presentation and classification changes only; simulation and allocation logic are unchanged.
+
+
+## v34.2 toss-up display treatment
+
+- Electorates rated toss-up remain apportioned to a party inside the representative central scenario for Parliament, party, bloc and electorate tallies.
+- In the electorate table, “Central winner” is relabelled “Central leader”. Toss-up rows use strong neutral-grey shading and a Toss-up badge; they are not presented as definite flips.
+- On maps, toss-ups use neutral-grey fill and a dark-grey outline. Tooltips identify the central-scenario leader while retaining the full-distribution win frequency.
+- No simulation, allocation, probability or seat-tally logic has changed.
