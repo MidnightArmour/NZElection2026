@@ -7,3 +7,11 @@
 - Party votes are generated compositionally in log space and sum to 99%, reserving 1% for other parties.
 - Electorate swing uses each simulation’s realised national two-bloc vote. General and Māori electorates use separate sensitivities and shared error pools.
 - Candidate adjustments are blended with raw transposed shares using an evidence hierarchy.
+
+## Māori electorate update
+
+- All seven Māori electorates use published Whakaata Māori–Curia candidate polling as the dominant baseline.
+- The Te Pāti Māori strategy is represented as a candidate-vote premium alongside Labour/Green party-vote strength, not as a reciprocal Labour concession.
+- Tāmaki Makaurau models Kerrin Leoni as a local independent/other candidate following withdrawal of Labour endorsement.
+- Te Tai Tokerau and Te Tai Tonga include local breakaway/independent support.
+- Local candidates can win a seat and are counted inside the base 120-seat Parliament; they do not receive party-list seats.
