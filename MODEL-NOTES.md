@@ -38,3 +38,12 @@
 - Parliament size, majority threshold, party totals, electorate/list/overhang components, bloc totals, the chamber graphic, electorate winners and maps all use that same run.
 - Probability, frequency, range and median vote-share displays continue to use all simulations.
 - The representative run is selected, not synthetically assembled, so its party seats reconcile to its Parliament size and its electorate winners total 71.
+
+
+## v34 electorate-table presentation update
+
+- Electorate-table headings use controlled two-line labels instead of unclear abbreviations.
+- The baseline column is labelled “2023 holder / model baseline” and explained in a footnote.
+- Glendene is marked as a new seat. A new seat is not described as a flip; if its central winner differs from the transposed baseline it is labelled “New seat · baseline difference”.
+- The change-only filter includes genuine flips and new seats.
+- Forecast calculations, representative central-scenario selection, polling inputs, seat allocation and data files are unchanged from v33.
